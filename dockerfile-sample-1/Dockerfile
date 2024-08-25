@@ -11,7 +11,7 @@ FROM debian:bookworm-slim
 
 LABEL maintainer="NGINX Docker Maintainers <docker-maint@nginx.com>"
 
-# optional environment variable that's used in later lines and set as envvar when container is running
+#   optional environment variable that's used in later lines and set as envvar when container is running
 ENV NGINX_VERSION   1.25.3
 ENV NJS_VERSION     0.8.2
 ENV PKG_RELEASE     1~bookworm
